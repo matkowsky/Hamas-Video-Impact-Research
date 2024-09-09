@@ -12,3 +12,16 @@ Date,Unemployment_Rate,Inflation_Rate,GDP_Growth
 2024-01,6.1,3.5,-1.8
 2024-02,6.3,3.7,-2.0
 2024-09,6.5,3.9,-2.1
+
+Date,Hostage_Name,Video_Release_Time,Public_Reaction
+2023-11-05,Hersh Goldberg-Polin,14:00,High Outrage
+2024-02-10,Eden Yerushalmi,09:30,Mass Protests
+2024-09-04,Carmel Gat,12:00,Intense Protests
+2024-09-10,Ori Danino,18:00,High Intensity
+
+Date,Entity,Statement,Impact_on_Protests
+2023-12-01,UN,Call for Ceasefire,Moderate
+2024-01-15,US,Support for Israel's Right to Defend,Polarizing
+2024-03-05,EU,Condemnation of Civilian Casualties,High
+2024-09-14,UN,Renewed Ceasefire Call,Moderate
+
