@@ -1,1 +1,45 @@
+# Load necessary libraries
+library(tidyverse)
+library(lmtest)
+
+# Load datasets
+protest_data <- read.csv("../data/protest_data.csv")
+economic_data <- read.csv("../data/economic_data.csv")
+hostage_data <- read.csv("../data/hostage_video_timeline.csv")
+intl_data <- read.csv("../data/international_responses.csv")
+
+# Merge datasets on Date
+merged_data <- merge(protest_data, economic_data, by="Date")
+merged_data <- merge(merged_data, hostage_data, by="Date", all.x=TRUE)
+merged_data <- merge(merged_data, intl_data, by="Date", all.x=TRUE)
+
+# Perform multivariate regression
+model <- lm(Participants ~ Unemployment_Rate + Video_Release_Time + Impact_on_Protests, data=merged_data)
+
+# Summary of the regression model
+summary(model)
+
+# Plotting residuals
+plot(residuals(model))
+
+# Load necessary libraries
+library(tidyverse)
+library(lmtest)
+
+# Load datasets
+protest_data <- read.csv("../data/protest_data.csv")
+economic_data <- read.csv("../data/economic_data.csv")
+
+# Merge datasets on Date
+merged_data <- merge(protest_data, economic_data, by="Date")
+
+# Perform regression analysis
+economic_model <- lm(Participants ~ Unemployment_Rate + Inflation_Rate, data=merged_data)
+
+# Summary of the regression model
+summary(economic_model)
+
+# Plotting residuals
+plot(residuals(economic_model))
+
 
