@@ -20,6 +20,8 @@ This repository contains data, analysis scripts, and the final report on the fac
 3. Use the `scripts/` folder to preprocess data and generate visualizations.
 4. Review the analysis in the `analysis/` folder.
 5. Read the final report in the `reports/` folder for a complete understanding of the findings.
+6. - `prompts/`: Contains all the research prompts organized by section. These prompts provide context for how the research was conducted and can serve as a resource for understanding the analytical process.
+
 
 ## Key Findings
 - Hostage videos were significant triggers for protests.
