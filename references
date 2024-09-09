@@ -1,1 +1,19 @@
+import pandas as pd
+
+# Load datasets
+protest_data = pd.read_csv('../data/protest_data.csv')
+economic_data = pd.read_csv('../data/economic_data.csv')
+hostage_data = pd.read_csv('../data/hostage_video_timeline.csv')
+
+# Data cleaning and preparation
+protest_data['Date'] = pd.to_datetime(protest_data['Date'])
+economic_data['Date'] = pd.to_datetime(economic_data['Date'])
+hostage_data['Date'] = pd.to_datetime(hostage_data['Date'])
+
+# Merging datasets
+merged_data = pd.merge(protest_data, economic_data, on='Date')
+merged_data = pd.merge(merged_data, hostage_data, on='Date')
+
+# Save the cleaned dataset
+merged_data.to_csv('../data/merged_data.csv', index=False)
 
