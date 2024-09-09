@@ -6,3 +6,9 @@ Date,Location,Participants,Type_of_Protest
 2024-09-07,Tel Aviv,20000,Anti-Government
 
 
+Date,Unemployment_Rate,Inflation_Rate,GDP_Growth
+2023-10,5.6,3.2,-1.5
+2023-11,5.8,3.4,-1.7
+2024-01,6.1,3.5,-1.8
+2024-02,6.3,3.7,-2.0
+2024-09,6.5,3.9,-2.1
