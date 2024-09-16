@@ -1,37 +1,118 @@
-# Prompts for Historical Context
+Here is the full list of prompts that were compiled during the course of our research process:
 
-1. **Exploring the Background**:
-   - "Please provide an overview of the historical context of the Israeli-Palestinian conflict, particularly events leading up to the 2023-2024 conflict."
-   - "What are the key socio-political dynamics that have influenced public sentiment in Israel during this conflict period?"
+### **General Prompts:**
 
-2. **Expanding Context**:
-   - "Review recent academic literature on the Israeli-Palestinian conflict and integrate alternative narratives, particularly those emphasizing broader regional dynamics."
+1. **Provide the final report and the entire GitHub repo in 3 sections.**
+2. **Generate all output necessary to do this.**
+3. **Provide the first section.**
+4. **Proceed in providing everything to copy and paste into each folder.**
+5. **Give me all the instructions and information you need from our entire chat for me to paste it into a new session with you and for you to do the work.**
+6. **Provide the draft.**
+7. **Provide the introduction to the report.**
+8. **Provide the final literature review.**
+9. **Provide the next part.**
+10. **Provide the qualitative analysis.**
+11. **If you completed the cross-verification process, now show me you integrated all findings into the final report.**
+12. **Provide the expanded version with statistical analysis.**
+13. **Combine it with this version (detailed in the provided text).**
+14. **Is anything from prior reports or your findings in our session omitted by accident?**
+15. **Provide the updated other sections.**
+16. **Show that you are making a real concrete effort in the output.**
+17. **Provide the final report expanded version now with references, etc.**
 
-# Prompts for Military Actions
+### **Research-Specific Prompts:**
 
-1. **Analyzing IDF Operations**:
-   - "Examine the Israeli Defense Forces' (IDF) operations during the 2023-2024 conflict. What were the objectives, and how were they perceived by the Israeli public?"
+1. **Begin actual research after you review our chart from earlier that I paste below to see how you can avoid making this mistake again.**
+2. **Only since October 2023 to present.**
+3. **For 5, only since Hamas war broke out in October 2023.**
+4. **Re-examine all collected data.**
+5. **Perform a detailed statistical analysis of the correlation between the release of hostage videos and the spikes in protests during this period.**
+6. **Update the final report to include this focused analysis on the last three weeks, ensuring that this critical period is given the attention it requires.**
+7. **Conduct a final review to ensure that the report now accurately reflects all necessary data and insights, particularly the analysis of the most recent events.**
+8. **Delve deeply into emphasizing unique findings and data in the research behind your column.**
+9. **Integrate this section and polish the final report.**
 
-2. **Evaluating Government Communications**:
-   - "Analyze the Israeli government's communication strategy regarding its military actions. How did this strategy influence public opinion and contribute to the protests?"
+### **Specific Tasks:**
 
-# Prompts for Diplomatic Efforts
+1. **Provide a detailed breakdown of what’s already done and what still needs to be addressed.**
+2. **Finalize the qualitative analysis.**
+3. **Incorporate what we discussed regarding 1, 2, 4, 5, 6, 7.**
+4. **Incorporate these sections and polish the final report.**
+5. **Continue from the second paragraph of the conclusion.**
+6. **Give me all prompts.**
+7. **Break down your % completion progress for the phases.**
 
-1. **International Responses**:
-   - "Investigate how international diplomatic efforts, particularly by the UN, US, and EU, have influenced public sentiment and protests in Israel during the conflict."
-   - "Explore the role of global solidarity movements and how they have been perceived in Israel. Did these movements have a significant impact on domestic protests?"
+### **Initial Document Review Prompts:**
 
-2. **Reassessing International Impact**:
-   - "Revisit the influence of international diplomatic efforts in light of recent developments. How have these efforts shaped protest dynamics in Israel?"
+1. **“I have 64 pages of discussion regarding a column. There are different versions of the column and points that may have been missed. I want to cross-check every version to come up with one version that includes every single point and nuance but is not repetitive.”**
+2. **“Let’s go through all the steps. I will split the document into 10 parts and upload them all.”**
+3. **“Meticulously examine the content and find any subtle points that are not in the article and enumerate them for me.”**
 
-# Prompts for Final Report and Synthesis
+### **Memory and Process Management Prompts:**
 
-1. **Finalizing the Report**:
-   - "Integrate all findings and counterpoints into a comprehensive final report. Ensure that the report reflects a nuanced analysis of the factors influencing protests during the conflict."
+1. **“I wasn’t intending this session to cross with the research you are doing for the findings and statistical study or GitHub project. This was supposed to be isolated in a separate session.”**
+2. **“Don’t leave out nuances as we can trim it. I don’t want to lose any nuance but I don’t want to repeat points either that are redundant.”**
+3. **“Don’t mix your memory from this session with the memory you are using for the other project.”**
 
-2. **Review and Polish**:
-   - "Review the final report for clarity and completeness. Ensure that all sections are cohesive and accurately represent the research findings."
+### **Content Refinement Prompts:**
 
-3. **Github Repository Preparation**:
-   - "Prepare content for the GitHub repository, including data files, analysis scripts, and the final report. Ensure that the repository is well-organized and accessible for other researchers."
+1. **“Go page by page.”**
+2. **“After each page update me.”**
+3. **“Break down the steps of what you are doing more literally and then show me what percentage of what step you have already completed.”**
+4. **“Provide direct support for each point.”**
 
+### **Comparative Analysis Prompts:**
+
+1. **“Expand on comparative and global perspectives, including parallels with other conflicts such as those in Ukraine, the Balkans, and Syria, and Taiwan’s COVID response to disinformation.”**
+2. **“Check the final draft from before you incorporated anything to make sure nothing from there is missing.”**
+
+### **Editorial and Finalization Prompts:**
+
+1. **“Check the final output based on all the steps we’ve completed to see what from that final output is missing from this version.”**
+2. **“Update me, but be meticulous.”**
+3. **“Give a list of all prompts used.”**
+
+### **Research-Oriented Prompts:**
+
+1. **Literature Review and Research Inquiries:**
+   - **“Delve deeply online into any research that cites more than one of these in the same article.”**
+   - **“Delve deeply into who has trained Hamas on how to leverage the hostage videos.”**
+   - **“Explore the impact of hostage videos on public sentiment during wartime.”**
+2. **Statistical Analysis and Data Requests:**
+   - **“Conduct a multivariate regression analysis to quantify the impact of various factors on protest intensity and frequency.”**
+   - **“Analyze whether other conflicts saw similar patterns in the timing of psychological operations and how they influenced domestic unrest.”**
+3. **Verification and Fact-Checking:**
+   - **“Fact check the article based on citations that you double check for accuracy and make a list of what still needs to be verified before publication to be reliable.”**
+   - **“Try to verify everything that you can verify through independent fact-checking online and then make code for a GitHub repo that says what still is only preliminary findings.”**
+4. **Content Comparison and Deduplication:**
+   - **“Compare all versions of the column to see which ones have unique content that appears in one but not the other.”**
+   - **“Identify and remove repeated paragraphs of text to streamline the content.”**
+
+### **Column Refinement and Writing Prompts:**
+
+1. **Content Integration and Editing:**
+   - **“Incorporate this new research into the final column draft while ensuring no duplicative content.”**
+   - **“Review all versions of the column and identify any unique insights or points that should be reintegrated into the final version.”**
+2. **Quality Assurance and Finalization:**
+   - **“Ensure that the newly added content is consistent with the overall tone and message of the column.”**
+   - **“Make sure that the final version of the column includes all relevant insights from the comprehensive endnotes.”**
+
+### **Analysis and Discussion Prompts:**
+
+1. **Strategic and Theoretical Inquiries:**
+   - **“Analyze the role of Iran in training and supporting Hamas in psychological warfare tactics, with examples from recent conflicts.”**
+   - **“Explain in detail the psychological effects of repeated exposure to graphic hostage videos on a civilian population during wartime.”**
+2. **Scenario-Specific and Focused Inquiries:**
+   - **“Explore how Hezbollah’s media strategies have evolved and influenced Hamas’s current psychological operations.”**
+   - **“Investigate the potential influence of psychological operations on domestic unrest and how governments can counteract this.”**
+
+### **Process-Oriented Prompts:**
+
+1. **Organizational and Planning Prompts:**
+   - **“Create a process for auditing the chat history to ensure nothing is missed.”**
+   - **“Make sure that every claim and observation in the column is supported by a citation, and categorize these citations accordingly.”**
+2. **Guidance and Instruction Prompts:**
+   - **“Provide step-by-step guidance on how to compile and organize the comprehensive list of endnotes.”**
+   - **“Offer suggestions on how to refine the research findings and ensure they are accurately reflected in the final column.”**
+
+If you need to add or revise anything, just let me know!
