@@ -17,8 +17,7 @@ This repository contains data, analysis scripts, and the final report on the fac
 ## How to Use
 1. Clone the repository.
 2. Explore the `data/` folder for raw datasets.
-3. Use the `scripts/` folder to preprocess data and generate visualizations.
-4. Review the analysis in the `analysis/` folder.
+3. Review the analysis and data in the folders.
 5. Read the final report in the `reports/` folder for a complete understanding of the findings.
 6. - `prompts/`: Contains all the research prompts organized by section. These prompts provide context for how the research was conducted and can serve as a resource for understanding the analytical process.
 
