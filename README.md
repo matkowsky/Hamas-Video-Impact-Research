@@ -41,4 +41,4 @@ Recommendations and Future Research: The repository may include suggestions or r
 - International diplomatic efforts had a polarizing effect on public sentiment.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under CC BY 4.0 - see the LICENSE file for details.
